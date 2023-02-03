@@ -1,0 +1,8 @@
+total=float(input("total bill"))
+tip=int(input("tip you give"))
+people=int(input("person here"))
+
+
+bill_with_tip=tip / 100 * total + total
+devidid=round(bill_with_tip/people,2)
+print(f"every one pay {devidid} rupees")
